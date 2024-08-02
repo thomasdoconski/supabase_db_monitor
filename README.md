@@ -56,8 +56,8 @@ supabase_db_monitor/
 ## 1. **Clone the repository:**
 
 ``` 
-git clone <repository-url>
-cd <repository-directory>
+git clone [<repository-url>](https://github.com/thomasdoconski/supabase_db_monitor)
+cd supabase_db_monitor
 ```
 
 ## 2. **Install dependencies:**
