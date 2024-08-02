@@ -1,0 +1,10 @@
+{
+    "supabase_query_error": "An error occurred while querying Supabase: {error}",
+    "discord_notification_failure": "Failed to send notification. Status code: {status_code}, Response: {response_text}",
+    "database_size_retrieval_failure": "Could not retrieve the database size.",
+    "discord_notification_success": "Notification sent successfully to Discord.",
+    "database_size_retrieved": "The current database size is: {size} MB (limit 500MB).",
+    "database_size_changed": "The database size changed from {previous_size} MB to {current_size} MB (difference of {change} MB). Limit 500MB.",
+    "pickle_open_file_error": "An error occurred when loading pickle file: {error}",
+    "pickle_save_file_error": "An error occurred when saving pickle file: {error}"
+}

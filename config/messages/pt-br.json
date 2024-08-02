@@ -1,0 +1,10 @@
+{
+    "supabase_query_error": "Ocorreu um erro ao consultar o Supabase: {error}",
+    "discord_notification_failure": "Falha ao enviar notificação. Código de status: {status_code}, Resposta: {response_text}",
+    "database_size_retrieval_failure": "Não foi possível obter o tamanho do banco de dados.",
+    "discord_notification_success": "Notificação enviada com sucesso ao Discord.",
+    "database_size_retrieved": "O tamanho atual do banco de dados é: {size} MB (limite 500MB).",
+    "database_size_changed": "O tamanho do banco de dados mudou de {previous_size} MB para {current_size} MB (variação de {change} MB). Limite 500MB.",
+    "pickle_open_file_error": "Erro ao carregar o arquivo pickle: {error}",
+    "pickle_save_file_error": "Erro ao salvar o arquivo pickle: {error}"
+}
