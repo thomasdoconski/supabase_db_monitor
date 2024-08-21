@@ -1,5 +1,6 @@
 import logging
 from .discord import send_discord_notification
+from .slack import send_slack_notification
 from .supabase import get_database_size
 from .pickle_utils import load_from_pickle, save_to_pickle
 from config.settings import PREVIOUS_SIZE_FILE, MESSAGES
@@ -17,6 +18,7 @@ def monitor_supabase():
         else:
             message = MESSAGES["database_size_retrieved"].format(size=size_value)
         send_discord_notification(message)
+        send_slack_notification(message)
         logging.info(message)
         save_to_pickle(PREVIOUS_SIZE_FILE, size_value)
     else:

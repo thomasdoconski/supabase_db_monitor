@@ -74,6 +74,8 @@ Create a `.env` file in the root directory and add the following:
 - `SUPABASE_URL`: Your Supabase project URL.
 - `SUPABASE_KEY`: Your Supabase API key.
 - `DISCORD_WEBHOOK_URL`: Your Discord webhook URL.
+
+- `SLACK_WEBHOOK_URL`: Your Slack webhook URL.
 - `LANGUAGE`: The language for error messages. Options: `en-us`, `pt-br`. Default is `en-us`.
 
 Example `.env` file:
@@ -81,6 +83,7 @@ Example `.env` file:
 SUPABASE_URL=your_supabase_url
 SUPABASE_KEY=your_supabase_key
 DISCORD_WEBHOOK_URL=your_discord_webhook_url
+SLACK_WEBHOOK_URL=your_slack_webhook_url
 LANGUAGE=en-us
 ```
 

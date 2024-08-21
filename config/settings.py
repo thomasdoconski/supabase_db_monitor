@@ -9,6 +9,9 @@ load_dotenv()
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
+#Slack related variable
+SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")
+
 #Discord related variables
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 DISCORD_WEBHOOK_BOT_CUSTOM_NAME = os.getenv("DISCORD_WEBHOOK_BOT_CUSTOM_NAME")
